@@ -40,7 +40,7 @@
 - CLI 제공 예시:
   - `harness run --suite smoke`
   - `harness run --case case_001 --seed 42`
-  - `harness report --run-id <id>`
+  - `harness report --run-id <run-id>`
 - 설정 파일(`config.yaml`)에서 타임아웃, 병렬도, 재시도, 스코어 가중치 조정 가능
 - 실패 시 에러코드 표준화 및 사람이 이해할 수 있는 메시지 제공
 
