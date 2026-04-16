@@ -39,8 +39,8 @@
 - 최소 동작 가능한 MVP를 먼저 완성 후 확장
 - CLI 제공 예시:
   - `harness run --suite smoke`
-  - `harness run --case case_001 --seed <seed>`
-  - `harness report --run-id <run-id>`
+  - `harness run --case case_001 --seed SEED_VALUE`
+  - `harness report --run-id RUN_ID`
 - 설정 파일(`config.yaml`)에서 타임아웃, 병렬도, 재시도, 스코어 가중치 조정 가능
 - 실패 시 에러코드 표준화 및 사람이 이해할 수 있는 메시지 제공
 
